@@ -6,7 +6,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const ENTRY_TEXT =
-  "Earth: five stars for the oceans, one star for the checkout queue at the gift shop. Would visit again, briefly.";
+  "The dogs run the parks and the humans just carry the bags. Five stars for the dogs, one for the leash laws.";
 
 const MAX_CHARS = 200;
 const OUTPUT_PATH = "/output/entry.txt";
